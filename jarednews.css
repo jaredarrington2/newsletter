@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0px;
+  outline: 0;
+}
+
+p{
+  margin: auto;
+  border: 3px;
+  padding: 5px;
+  color: navy;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h1{
+  margin: 0px;
+  border: ;
+  padding: 10px;
+  font-size: 24px;
+  font-family: 'Pontano Sans', sans-serif;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+h2{
+  margin: 0px;
+  border: 0px;
+  padding: 12px;
+  font-family: 'Pontano Sans', sans-serif;
+  color: red;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+#topbar{
+  background-color: darkgrey;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  height: 40px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0px;
+  padding: 10px;
+
+}
+
+.article{
+  column-count: 3;
+  column-gap: 3%;
+  column-span: all;
+  column-width: 20%;
+  text-align: justify;
+  padding: 15px;
+}
+
+#logo{
+  float: left;
+}
+
+#wrapper{
+  width: 100%;
+}
+
+img{
+  width: auto;
+  height: auto;
+  max-width: 253px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+
+nav{
+  float:left;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#scorebox{
+  float:right;
+  height: 10%;
+  width: auto;
+  margin: 10px;
+  padding: 0px;
+  font-family: 'Pontano Sans', sans-serif;
+
+}
