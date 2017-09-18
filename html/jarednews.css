@@ -1,9 +1,90 @@
+//*everything*//
 body {
-  margin: 0;
+  margin: 0px;
   border: 0;
   padding: 0px;
   outline: 0;
 }
+
+
+//*top of page*//
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color: grey;
+  margin-bottom: : 30px;
+  justify-content: center;
+}
+
+header img{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px;
+  padding: 0px;
+  width: 300px;
+  height: auto;
+}
+
+#topbar{
+  background-color: darkgrey;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  height: 40px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0px;
+  padding: 10px;
+
+}
+
+#logo{
+  float: left;
+
+}
+
+nav{
+  display: inline-flex;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: bold;
+
+}
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav a:active{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+//*content*//
+#scorebox{
+  float:right;
+  height: 10%;
+  width: auto;
+  margin: 10px;
+  padding: 0px;
+  font-family: 'Pontano Sans', sans-serif;
+
+}
+
 
 p{
   margin: auto;
@@ -22,7 +103,6 @@ h1{
   font-weight: bold;
   color: red;
   text-align: center;
-  background-color: lightgrey;
 }
 
 h2{
@@ -35,18 +115,15 @@ h2{
   font-variant: small-caps;
 }
 
-#topbar{
-  background-color: darkgrey;
-  color: white;
-  font-family: 'Rajdhani', sans-serif;
-  height: 40px;
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
+h3{
+  margin: 0px;
   border: 0px;
-  padding: 10px;
-
+  padding: 0px;
+  font-family: 'Pontano Sans', sans-serif;
+  color: navy;
+  text-align: center;
 }
+
 
 .article{
   column-count: 3;
@@ -57,14 +134,10 @@ h2{
   padding: 15px;
 }
 
-#logo{
-  float: left;
-
-}
-
 #wrapper{
   width: 100%;
 }
+
 
 img{
   width: auto;
@@ -74,39 +147,10 @@ img{
   margin-bottom: 4px;
 }
 
-
-
-nav{
-  float:left;
-  display: inline-flex;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-nav a {
-  padding-left: 25px;
-  font-weight: bold;
-}
-nav a:hover{
-  text-decoration: underline;
-}
-
-nav a:active{
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-#scorebox{
-  float:right;
-  height: 10%;
-  width: auto;
-  margin: 10px;
-  padding: 0px;
-  font-family: 'Pontano Sans', sans-serif;
-
+main{
+  margin: 25px;
+  border: 25px;
+  padding: 25px;
 }
 
 #table img{
@@ -124,7 +168,8 @@ nav a:active{
   font-size: 18px;
 }
 
-#label img:hover{
+#table img:hover~p{
   font-family: 'Pontano Sans', sans-serif;
   font-size: 16px;
+  display: block;
 }
