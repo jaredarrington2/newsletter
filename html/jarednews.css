@@ -59,6 +59,7 @@ h2{
 
 #logo{
   float: left;
+
 }
 
 #wrapper{
@@ -77,11 +78,25 @@ img{
 
 nav{
   float:left;
-  display: block;
+  display: inline-flex;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 a {
   text-decoration: none;
   color: inherit;
+}
+nav a {
+  padding-left: 25px;
+  font-weight: bold;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav a:active{
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 #scorebox{
@@ -92,4 +107,24 @@ a {
   padding: 0px;
   font-family: 'Pontano Sans', sans-serif;
 
+}
+
+#table img{
+  width: 300px;
+  height: auto;
+  clip:rect(10px,100px,100px,10px);
+  height: auto;
+}
+
+#table img:hover{
+  background-color: navy;
+  opacity: 0.2;
+  font-family: 'Pontano Sans', sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+#label img:hover{
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 16px;
 }
