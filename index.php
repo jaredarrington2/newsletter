@@ -1,1 +1,1 @@
-<?php include_once("newsletter.html"); ?>
+<?php include_once("jarednews.html"); ?>
